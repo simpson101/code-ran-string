@@ -28,7 +28,7 @@ app.get("/GetImg", function (request, response) {
 					"content": { 
 					"messages": [ 
 									{ "type": "image", 
-									  "url": "https://res.cloudinary.com/trafficlighthouse/image/upload/l_text:courier_25_bold_underline:FgtjxFxLF4,g_north,x_-65,y_110/l_text:courier_25_bold:Paul%20Simpson,g_north,x_-65,y_80/v1542797808/voucher2.png"
+									  "url": "https://res.cloudinary.com/trafficlighthouse/image/upload/l_text:courier_25_bold_underline:"+ request.query.code +",g_north,x_-65,y_110/l_text:courier_25_bold:Paul%20Simpson,g_north,x_-65,y_80/v1542797808/voucher2.png"
                   } 
 								] 
 								} 
